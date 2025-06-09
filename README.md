@@ -32,3 +32,10 @@ pip install requests colorama
 
 
 
+## Usage
+- First, create a folder and input all of the files into the folder you created
+- Once you did that, enter your desired usernames in the usernames.txt file
+- Open your project folder, and click the path thing up type, and type "cmd" this will prompt you with a terminal in your project folder
+- Once in terminal, type in "python main.py" this will run the script
+- Follow instructions in terminal
+- Enjoy your sniping!
