@@ -4,18 +4,6 @@ A fast, multithreaded Roblox username availability checker written in Python.
 Designed to quickly verify large lists of potential usernames by querying Roblox’s official API.
 
 ---
-## Requirements
-
-- Python 3.x  
-- [requests](https://pypi.org/project/requests/)  
-- [colorama](https://pypi.org/project/colorama/)  
-
-Install dependencies using pip:
-
-```bash
-pip install requests colorama
----
-
 
 
 ## Features
@@ -29,9 +17,6 @@ pip install requests colorama
 - Handles API rate limiting gracefully with retries and throttling  
 - Interactive terminal prompts to start checking and optionally enter a webhook URL (webhook functionality not yet implemented)  
 - Simple to use and easy to customize  
-
----
-
 ## Usage
 - First, create a folder and input all of the files into the folder you created
 - Once you did that, enter your desired usernames in the usernames.txt file
@@ -39,6 +24,15 @@ pip install requests colorama
 - Once in terminal, type in "python main.py" this will run the script
 - Follow instructions in terminal
 - Enjoy your sniping!
+--- 
+## Requirements
 
+- Python 3.x  
+- [requests](https://pypi.org/project/requests/)  
+- [colorama](https://pypi.org/project/colorama/)  
 
+Install dependencies using pip:
+
+```bash
+pip install requests colorama
 ---
