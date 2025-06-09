@@ -40,7 +40,7 @@ Designed to quickly verify large lists of potential usernames by querying Roblox
 Install dependencies using pip:
 
 
-pip install requests colorama
+## pip install requests colorama
 
 ---
 
