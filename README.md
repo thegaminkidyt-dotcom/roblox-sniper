@@ -30,3 +30,35 @@ Install dependencies using pip:
 
 ```bash
 pip install requests colorama
+
+
+Usage
+Create a usernames.txt file in the same directory with one username per line to check.
+
+Run the script:
+
+bash
+Copy
+Edit
+python roblox_checker.py
+Follow the prompts in the terminal:
+
+Choose whether to enter a webhook URL (functionality coming soon)
+
+Confirm if you want to start sniping
+
+The script will check each username and output the results in the terminal with colors and save to:
+
+valid.txt (available usernames)
+
+invalid.txt (taken or invalid usernames)
+
+Notes
+To avoid rate limits and IP bans, the script includes a small delay and retries on rate limiting.
+
+Adjust the number of threads in the script (max_threads variable) based on your internet speed and tolerance to rate limits.
+
+Disclaimer
+This tool is intended for educational and personal use only.
+Respect Roblox's API usage policies and terms of service.
+Excessive or abusive usage may lead to temporary or permanent bans.
