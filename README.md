@@ -37,3 +37,15 @@ Install with:
 
 ```bash
 pip install requests colorama
+
+
+## 🚀 Usage
+
+1. **Clone or download** the repository files into a folder.
+2. Open `usernames.txt` and paste your list of usernames (one per line).
+3. Open the folder in File Explorer.
+4. In the top bar, type `cmd` and press Enter to open a terminal in that folder.
+5. Run the script:
+
+```bash
+python main.py
