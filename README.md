@@ -1,4 +1,4 @@
-##dizzyman0 Roblox Username Sniper
+**dizzyman0 Roblox Username Sniper
 
 A fast, open source, multithreaded Roblox username availability checker written in Python.  
 Designed to quickly verify large lists of potential usernames by querying Roblox’s official API.
