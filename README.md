@@ -1,8 +1,7 @@
-Roblox Username Sniper
+# dizzyman0 Roblox Username Sniper
 
 A fast, multithreaded Roblox username availability checker written in Python.  
 Designed to quickly verify large lists of potential usernames by querying Roblox’s official API.
-Weather you're using this tool to create burner accounts with your desired username, please use this carefully.
 
 ---
 
@@ -30,8 +29,6 @@ Install dependencies using pip:
 
 ```bash
 pip install requests colorama
-
-
 Usage
 Create a usernames.txt file in the same directory with one username per line to check.
 
@@ -62,3 +59,12 @@ Disclaimer
 This tool is intended for educational and personal use only.
 Respect Roblox's API usage policies and terms of service.
 Excessive or abusive usage may lead to temporary or permanent bans.
+
+License
+MIT License © dizzyman0
+
+Feel free to open issues or contribute!
+
+vbnet
+Copy
+Edit
