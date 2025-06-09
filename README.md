@@ -33,10 +33,11 @@ Designed to quickly verify large lists of potential usernames using Roblox's off
   - `requests`
   - `colorama`
 
-Install with:
+Install with Python:
 
-```bash
-pip install requests colorama
+pip install colorama requests
+
+---
 
 
 ## 🚀 Usage
