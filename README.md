@@ -27,7 +27,7 @@ Designed to quickly verify large lists of potential usernames using Roblox's off
 ---
 
 ## 🛠️ Requirements
-
+- IMPORTANT NOTE: YOU MUST INSTALL PYTHON TO PATH WHEN INSTALLING
 - Python 3.7 or higher  
 - Packages:
   - `requests`
