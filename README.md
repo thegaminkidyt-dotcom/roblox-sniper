@@ -1,70 +1,39 @@
-## dizzyman0 Roblox Username Sniper
+# 🎯 dizzyman0 Roblox Username Sniper
 
-A fast, open source, multithreaded Roblox username availability checker written in Python.  
-Designed to quickly verify large lists of potential usernames by querying Roblox’s official API.
+A blazing-fast, multithreaded, open-source Roblox username checker written in Python.  
+Designed to quickly verify large lists of potential usernames using Roblox's official API.
 
----
-
-## Features
-
-- **Multithreaded** for faster username checking using Python’s \`ThreadPoolExecutor\`  
-- Displays **real-time progress** with checked count and CPM (checks per minute) in the terminal window title  
-- Color-coded terminal output:  
-  - **Green** for valid (available) usernames  
-  - **Red** for taken usernames  
-- Saves results to \`valid.txt\` and \`invalid.txt\` files  
-- Handles API rate limiting gracefully with retries and throttling  
-- Interactive terminal prompts to start checking and optionally enter a webhook URL (webhook functionality not yet implemented)  
-- Simple to use and easy to customize  
+![Script in Action](https://cdn.discordapp.com/attachments/1381740628735430678/1381742142040571954/image.png?ex=68489f26&is=68474da6&hm=8eb919f82ef6b48801819b7640100d5364149428da32ec1cfb2bf38b3fde7806&)
 
 ---
 
-## Usage
+## ⚡ Features
 
-1. Create a folder and place all script files into it.  
-2. Add your desired usernames to the \`usernames.txt\` file (one username per line).  
-3. Open the folder, click the path bar, type \`cmd\`, and press Enter — this opens a terminal at your project folder.  
-4. Run the script by typing:  
-   python main.py
-5. Follow the instructions in the terminal.  
-6. Enjoy your sniping!  
-
----
-
-## Requirements
-
-- Python 3.x  
-- [requests](https://pypi.org/project/requests/)  
-- [colorama](https://pypi.org/project/colorama/)  
-
-Install dependencies using pip:
-
-
-## pip install requests colorama
+- ✅ **Multithreaded** — lightning-fast checks with `ThreadPoolExecutor`
+- ✅ Displays **live progress** in the terminal title:
+  - `Checked`, `Valid`, and **CPM** (Checks Per Minute)
+- ✅ **Color-coded terminal output**:
+  - 🟩 Green: username is available
+  - 🟥 Red: username is taken
+- ✅ Saves results:
+  - `valid.txt` — available usernames
+  - `invalid.txt` — taken usernames
+- ✅ Interactive terminal prompts:
+  - Ask to send results to a webhook (future feature)
+  - Ask to start sniping
+- ✅ Automatically handles slowdowns and retries (basic anti-rate-limit logic)
+- ✅ Beginner-friendly, portable, and lightweight
 
 ---
 
-## Notes
+## 🛠️ Requirements
 
-- To avoid rate limits and IP bans, the script includes a small delay and retries on rate limiting.  
-- Adjust the number of threads in the script (\`max_threads\` variable) based on your internet speed and tolerance to rate limits.  
+- Python 3.7 or higher  
+- Packages:
+  - `requests`
+  - `colorama`
 
----
+Install with:
 
-## Disclaimer
-
-This tool is intended for educational and personal use only.  
-Respect Roblox's API usage policies and terms of service.  
-Excessive or abusive usage may lead to temporary or permanent bans.
-
----
-
-## License
-
-MIT License © dizzyman0
-
----
-
-Feel free to messege me with any errors you're having or any suggestions!" > README.md
-
-Discord: @vzfl
+```bash
+pip install requests colorama
