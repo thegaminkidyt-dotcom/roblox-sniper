@@ -48,11 +48,7 @@ pip install colorama requests
 4. In the top bar, type `cmd` and press Enter to open a terminal in that folder.
 5. Run the script:
 
+Messege me on discord for help or suggestions! @vzfl
+
 ```bash
 python main.py
----
-
-
-** Questions or concerns
-
-Messege me on discord @vzfl
