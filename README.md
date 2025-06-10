@@ -50,3 +50,9 @@ pip install colorama requests
 
 ```bash
 python main.py
+---
+
+
+** Questions or concerns
+
+Messege me on discord @vzfl
