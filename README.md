@@ -19,7 +19,7 @@ Designed to quickly verify large lists of potential usernames using Roblox's off
   - `valid.txt` — available usernames
   - `invalid.txt` — taken usernames
 - ✅ Interactive terminal prompts:
-  - Ask to send results to a webhook (future feature)
+  - Ask to send results to a  discord webhook
   - Ask to start sniping
 - ✅ Automatically handles slowdowns and retries (basic anti-rate-limit logic)
 - ✅ Beginner-friendly, portable, and lightweight
