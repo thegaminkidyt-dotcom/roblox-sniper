@@ -1,3 +1,8 @@
+Sure! Here’s the full clean copy-paste version of your README that you can use anywhere (Discord, GitHub, Notepad, etc.):
+
+⸻
+
+
 # 🎯 Roblox Username Sniper
 
 A **blazing-fast**, multithreaded, open-source Roblox username checker written in Python.  
@@ -33,3 +38,24 @@ Designed to quickly verify large lists of potential usernames using Roblox’s o
 ➡ Required Python packages:
 ```bash
 pip install requests colorama
+
+
+⸻
+
+🚀 Usage
+
+1️⃣ Clone or download the files into a folder.
+2️⃣ Open usernames.txt and paste your list of usernames (one per line).
+3️⃣ Open the folder in File Explorer.
+4️⃣ In the top bar, type cmd and press Enter.
+5️⃣ Run the script:
+
+python main.py
+
+
+⸻
+
+💬 Need help or have suggestions?
+Message me on Discord: @vzfl
+
+---
