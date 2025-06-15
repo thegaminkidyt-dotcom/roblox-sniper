@@ -1,4 +1,3 @@
-Got it — here’s a clean README.md you can copy-paste:
 
 # 🎯 Roblox Username Sniper
 
@@ -29,7 +28,7 @@ Designed to quickly verify large lists of potential usernames using Roblox’s o
 ---
 
 ## 🛠️ Requirements
-
+- ** Code Text Editor (Visual Studio Code recommended)
 ➡ **Install Python 3.7+**  
 ➡ Make sure you select **Add Python to PATH** when installing!
 
@@ -53,5 +52,3 @@ python main.py
 
 💬 **Need help or have suggestions?**  
 Message me on Discord: `@vzfl`
-
-✅ Let me know if you want the full Python script too.
