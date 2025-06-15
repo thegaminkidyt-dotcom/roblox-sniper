@@ -3,7 +3,7 @@
 
 A **blazing-fast**, multithreaded, open-source Roblox username checker written in Python.  
 Designed to quickly verify large lists of potential usernames using Roblox’s official API.
-https://cdn.discordapp.com/attachments/1257226957888684125/1381885478940180601/Screenshot_2025-06-09_233649.png?ex=685064e4&is=684f1364&hm=9890cb72c3f3a3cd266ed2a9c43230638102eb9a9983ccf38ded550b26bb4cad&
+![Screenshot](https://cdn.discordapp.com/attachments/1257226957888684125/1381885478940180601/Screenshot_2025-06-09_233649.png?ex=685064e4&is=684f1364&hm=9890cb72c3f3a3cd266ed2a9c43230638102eb9a9983ccf38ded550b26bb4cad&)
 ---
 
 ## ⚡ Features
