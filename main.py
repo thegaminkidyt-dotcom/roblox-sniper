@@ -69,7 +69,7 @@ def process_username(username):
             valid_count += 1
         elapsed = max(time.time() - start_time, 1)
         cpm = int((checked / elapsed) * 60)
-        set_terminal_title(f"dizzyman0 sniper - Checked: {checked} | Valid: {valid_count} | CPM: {cpm}")
+        set_terminal_title(f"RoSnipe: {checked} | Valid: {valid_count} | CPM: {cpm}")
 
     if is_valid:
         log_result("VALID", username)
@@ -85,9 +85,16 @@ def main():
     global start_time
 
     print(Fore.RED + r"""
-╔══════════════════════════════════════════╗
-║         Roblox Sniper         ║
-╚══════════════════════════════════════════╝
+
+  _____   ____   _____ _   _ _____ _____  ______ _____  
+ |  __ \ / __ \ / ____| \ | |_   _|  __ \|  ____|  __ \ 
+ | |__) | |  | | (___ |  \| | | | | |__) | |__  | |__) |
+ |  _  /| |  | |\___ \| . ` | | | |  ___/|  __| |  _  / 
+ | | \ \| |__| |____) | |\  |_| |_| |    | |____| | \ \ 
+ |_|  \_\\____/|_____/|_| \_|_____|_|    |______|_|  \_\
+                                                        
+                                                        
+
     """)
 
     parser = argparse.ArgumentParser()
