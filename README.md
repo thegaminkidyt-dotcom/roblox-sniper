@@ -1,5 +1,5 @@
 
-# 🎯 Roblox Username Sniper
+# 🎯 RoSnipe
 
 A **blazing-fast**, multithreaded, open-source Roblox username checker written in Python.  
 Designed to quickly verify large lists of potential usernames using Roblox’s official API.
