@@ -1,5 +1,6 @@
 
 # 🎯 RoSnipe
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/jkwy/roblox-sniper)
 
 A **blazing-fast**, multithreaded, open-source Roblox username checker written in Python.  
 Designed to quickly verify large lists of potential usernames using Roblox’s official API.
